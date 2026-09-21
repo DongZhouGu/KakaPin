@@ -1,7 +1,7 @@
 # 产品官网与 GitHub Pages
 
-- 中文：<https://DongZhouGu.github.io/KakaPin/>
-- English：<https://DongZhouGu.github.io/KakaPin/en/>
+- 中文：<https://www.dzgu.top/KakaPin/>
+- English：<https://www.dzgu.top/KakaPin/en/>
 
 官网是独立的静态产品介绍页，不运行相册编辑器，不接收照片上传。编辑与视频渲染仍使用本机程序。
 
