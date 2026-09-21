@@ -10,9 +10,32 @@ KakaPin 是一款本地运行的相册视频编辑器。把照片和视频放在
 
 > 早期版本 · 本机服务 + 浏览器 · macOS / Windows 启动脚本 · Node.js 22+ · FFmpeg
 
-![KakaPin 新建影片与模板选择](docs/assets/kakapin-start.png)
+![KakaPin 编辑工作台：真实照片、拍立得预览与故事板](docs/assets/kakapin-workspace.png)
 
-演示截图使用内置占位插画，不包含真实相册。
+真实界面截图，使用经用户授权的背影与手部照片，避开正脸；原片和演示项目不随仓库分发。[查看完整截图导览](docs/screenshots.md)。
+
+<details>
+<summary>更多产品截图：项目库、模板设置、素材管理与导出</summary>
+
+### 项目库
+
+![KakaPin 项目库：缩略图、搜索与继续编辑](docs/assets/kakapin-projects.png)
+
+### 模板与全片设置
+
+![手工剪贴模板、全片风格与自定义背景色](docs/assets/kakapin-templates.png)
+
+### 不参与影片的素材，可随时加回来
+
+![素材移出后保留在已移出列表，可重新加入](docs/assets/kakapin-media.png)
+
+### 导出尺寸与画质
+
+![KakaPin 导出设置：4K 放大输出与精细画质](docs/assets/kakapin-export.png)
+
+当前 4K 为 1080p 合成后放大，非原生 4K 细节。完整能力与限制见下文。
+
+</details>
 
 ## 把回忆，连成一部影片
 

@@ -10,9 +10,32 @@ KakaPin is a local photo-and-video album editor. Combine landscape and portrait 
 
 > Early version · Local server + browser · macOS / Windows launch scripts · Node.js 22+ · FFmpeg
 
-![KakaPin import and template picker](docs/assets/kakapin-start.png)
+![KakaPin workspace with real photos, instant-paper preview, and storyboard](docs/assets/kakapin-workspace.png)
 
-The demo screenshot uses the built-in placeholder illustration, not personal albums.
+Real interface captures use user-authorized back-view and hand-detail photos, without front-facing faces. Original photos and demo projects are not distributed. [Full screenshot tour](docs/screenshots.md).
+
+<details>
+<summary>More screenshots: projects, templates, media management, and export</summary>
+
+### Project library
+
+![Project thumbnails, search, and resume editing](docs/assets/kakapin-projects.png)
+
+### Templates and whole-film settings
+
+![Scrapbook template, whole-film style, and background colors](docs/assets/kakapin-templates.png)
+
+### Exclude media without deleting the original
+
+![Excluded media remains available to add back](docs/assets/kakapin-media.png)
+
+### Export size and quality
+
+![4K upscaled output and fine quality settings](docs/assets/kakapin-export.png)
+
+4K currently upscales a 1080p composition; it does not provide native 4K detail. See the limitations below.
+
+</details>
 
 ## From memories to a film
 

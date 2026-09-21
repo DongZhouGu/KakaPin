@@ -48,7 +48,10 @@ test('Chinese and English overviews state the important product boundaries', asy
     assert.match(text, /1920×1080/);
     assert.match(text, /4K/);
     assert.match(text, /SECURITY\.md/);
-    assert.match(text, /docs\/assets\/kakapin-start\.png/);
+    for (const screen of ['workspace', 'projects', 'templates', 'media', 'export']) {
+      assert.ok(text.includes(`docs/assets/kakapin-${screen}.png`));
+    }
+    assert.match(text, /docs\/screenshots\.md/);
   }
   assert.match(chinese, /视频原声目前不参与导出/);
   assert.match(english, /Source video audio is not included/);

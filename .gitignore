@@ -44,6 +44,11 @@ bin/*
 !public/assets/film-templates/matte-black.png
 !public/assets/film-templates/silver-black.png
 !docs/assets/kakapin-start.png
+!docs/assets/kakapin-projects.png
+!docs/assets/kakapin-workspace.png
+!docs/assets/kakapin-templates.png
+!docs/assets/kakapin-media.png
+!docs/assets/kakapin-export.png
 *.jpg
 *.jpeg
 *.heic
