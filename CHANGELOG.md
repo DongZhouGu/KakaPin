@@ -11,6 +11,10 @@ Only shipped code is listed here. Repository setup does not imply that signed in
 - Node.js 22 / 24 syntax and unit-test workflow for macOS, Windows, and Linux.
 - Git exclusions for local projects, backups, personal media, configuration, fonts, and video tools.
 
+### Fixed
+
+- Filled the missing Sharp Linux ARM64 optional package in the lockfile so clean Node.js 24 / npm 11 installs can resolve every platform entry. Renderer versions remain unchanged.
+
 ### Existing application baseline
 
 - Local photo-and-video album editor with project library, previews, autosave, in-session undo, and storyboard ordering.

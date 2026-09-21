@@ -36,6 +36,9 @@ test('package metadata and lockfile keep the same runtime contract', async () =>
   assert.deepEqual(manifest.engines, lock.packages[''].engines);
   assert.equal(manifest.repository.url, 'https://github.com/DongZhouGu/KakaPin.git');
   assert.equal(manifest.private, true, 'The source app must not be accidentally published to npm');
+  for (const dependency of Object.keys(lock.packages['node_modules/sharp'].optionalDependencies)) {
+    assert.ok(lock.packages['node_modules/' + dependency], `Missing Sharp platform package: ${dependency}`);
+  }
 });
 
 test('Chinese and English overviews state the important product boundaries', async () => {
