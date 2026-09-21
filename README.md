@@ -6,7 +6,7 @@
 
 KakaPin 是一款本地运行的相册视频编辑器。把照片和视频放在一起，按横竖比例组合画面，选择相纸与胶片风格，调整小字和节奏，再在自己的电脑上导出 MP4。
 
-[产品官网](https://www.dzgu.top/KakaPin/) · [快速开始](#快速开始) · [使用指南](docs/user-guide.md) · [启动与迁移](双击启动说明.md) · [English](README.en.md)
+[下载预览版 ZIP](https://github.com/DongZhouGu/KakaPin/releases/tag/v1.0.0-beta.1) · [产品官网](https://www.dzgu.top/KakaPin/) · [快速开始](#快速开始) · [使用指南](docs/user-guide.md) · [启动与迁移](双击启动说明.md) · [English](README.en.md)
 
 > 早期版本 · 本机服务 + 浏览器 · macOS / Windows 启动脚本 · Node.js 22+ · FFmpeg
 
@@ -78,7 +78,7 @@ KakaPin 是一款本地运行的相册视频编辑器。把照片和视频放在
 
 1. 安装 [Node.js](https://nodejs.org/en/download) 22 或更新的 LTS（本机已验证 Node.js 24）。
 2. 准备 [FFmpeg 和 ffprobe](https://ffmpeg.org/download.html)，需要 `libx264` 编码器与 `xfade` 滤镜。将可执行文件加入 PATH，或放进项目的 [`bin/`](bin/README.md)。
-3. 下载仓库源码并解压，或运行下面的命令。当前没有独立的 `.app`、`.exe`、DMG 或安装包。
+3. 从 [Releases](https://github.com/DongZhouGu/KakaPin/releases/tag/v1.0.0-beta.1) 下载 `KakaPin-v1.0.0-beta.1-macOS-Windows.zip` 并完整解压，或运行下面的命令。ZIP 是源码与双击启动器，不含 Node.js、FFmpeg、字体和已安装依赖，当前没有独立的 `.app`、`.exe`、DMG 或安装包。
 
 ```bash
 git clone https://github.com/DongZhouGu/KakaPin.git
@@ -117,6 +117,8 @@ npm run launch
 默认数据目录为项目下的 `.runtime/`，包含素材副本、预览、项目状态和导出文件。源文件不会因导入或移出影片而被改写。备份或跨电脑迁移时，停止服务后复制整个运行目录。
 
 Git 仓库只收录程序与文档，排除 `.runtime/`、`.backups/`、本机配置、字体、视频工具与私人素材。**Git 不是相册数据备份。** 若自定义运行目录，请把它放在仓库外或自行加入忽略规则。
+
+`marketing/`（小红书图文与文案）和 `videos/`（宣传视频工程）仅保存在本地，不入库，也不进入 Release ZIP。包中仅包含已授权的产品界面截图，不含照片原片。详见[打包与发布范围](docs/releases.md)。
 
 服务面向可信的单用户本机环境，不应通过端口转发、反向代理或公网部署对外提供访问。它没有 KakaPick 的全部安全加固能力；具体边界与漏洞报告方法见 [SECURITY.md](SECURITY.md)。
 

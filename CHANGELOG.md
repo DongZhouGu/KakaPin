@@ -4,6 +4,16 @@ Only shipped code is listed here. Repository setup does not imply that signed in
 
 ## Unreleased
 
+No changes yet.
+
+## v1.0.0-beta.1 — 2026-09-21
+
+### Preview distribution
+
+- Downloadable macOS / Windows source-and-launcher ZIP with SHA-256 checksum and bilingual release notes; not a standalone installer.
+- Local campaign directories `marketing/` and `videos/` are excluded from Git and release archives.
+- Public repository and Chinese / English GitHub Pages product website with authorized interface screenshots.
+
 ### Repository foundation
 
 - Chinese and English product README, startup / migration guide, usage and architecture documentation.

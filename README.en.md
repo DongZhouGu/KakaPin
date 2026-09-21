@@ -6,7 +6,7 @@
 
 KakaPin is a local photo-and-video album editor. Combine landscape and portrait media, choose paper or film-inspired templates, add your own small captions, set the pacing, and render an MP4 on your computer.
 
-[Website](https://www.dzgu.top/KakaPin/en/) · [Quick start](#quick-start) · [Documentation](docs/README.md) · [简体中文](README.md)
+[Download preview ZIP](https://github.com/DongZhouGu/KakaPin/releases/tag/v1.0.0-beta.1) · [Website](https://www.dzgu.top/KakaPin/en/) · [Quick start](#quick-start) · [Documentation](docs/README.md) · [简体中文](README.md)
 
 > Early version · Local server + browser · macOS / Windows launch scripts · Node.js 22+ · FFmpeg
 
@@ -71,6 +71,8 @@ Film frames have no sprocket holes. Custom background colors do not recolor the 
 
 Install [Node.js](https://nodejs.org/en/download) 22 or a newer LTS release and [FFmpeg / ffprobe](https://ffmpeg.org/download.html). FFmpeg must include `libx264` and `xfade`. Put the tools on PATH or in [`bin/`](bin/README.md).
 
+Download and fully extract `KakaPin-v1.0.0-beta.1-macOS-Windows.zip` from [Releases](https://github.com/DongZhouGu/KakaPin/releases/tag/v1.0.0-beta.1), or clone below. The ZIP contains source and launch scripts, not a standalone installer; Node.js, FFmpeg, fonts, and installed dependencies are not bundled.
+
 ```bash
 git clone https://github.com/DongZhouGu/KakaPin.git
 cd KakaPin
@@ -101,6 +103,8 @@ See the [startup and migration guide](双击启动说明.md) (Chinese) for confi
 The default `.runtime/` directory contains imported media copies, previews, project state, and exports. Importing or excluding a file does not modify its original source. Stop the service before backing up or migrating this directory.
 
 The source repository excludes runtime data, backups, local configuration, fonts, video tools, and private media. **Git is not a backup of your albums.** Keep custom runtime directories outside the repository or add appropriate ignore rules.
+
+`marketing/` (Xiaohongshu campaign copy and images) and `videos/` (promo video projects) stay local and are excluded from both Git and Release ZIPs. Authorized product screenshots are included; original photographs are not. See [release packaging](docs/releases.md).
 
 The service binds to loopback and is intended for trusted, single-user local use. Do not expose it through public hosting, reverse proxies, or port forwarding. It does not have all of KakaPick's security hardening. See [SECURITY.md](SECURITY.md).
 

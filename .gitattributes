@@ -11,3 +11,15 @@
 *.bat text eol=crlf
 *.png binary
 *.webp binary
+
+# Never include local campaign material or user data in source archives.
+/marketing export-ignore
+/videos export-ignore
+/.runtime export-ignore
+/.backups export-ignore
+/node_modules export-ignore
+/.site-dist export-ignore
+/release-artifacts export-ignore
+/kakapin.config.json export-ignore
+/.env export-ignore
+/.env.* export-ignore

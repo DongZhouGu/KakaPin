@@ -6,6 +6,11 @@ coverage/
 test-results/
 playwright-report/
 .site-dist/
+/release-artifacts/
+
+# Local-only campaign copy and promotional video projects
+/marketing/
+/videos/
 *.log
 *.tmp
 *.tsbuildinfo

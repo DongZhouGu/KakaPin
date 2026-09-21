@@ -17,6 +17,7 @@
 - [贡献指南](../CONTRIBUTING.md)
 - [安全策略](../SECURITY.md)
 - [发布记录](../CHANGELOG.md)
+- [Release 下载、打包与排除规则](releases.md)
 - [第三方与素材说明](../THIRD_PARTY_NOTICES.md)
 
 ## 设计
