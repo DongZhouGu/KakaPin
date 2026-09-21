@@ -1,0 +1,40 @@
+name: 问题反馈 / Bug report
+description: 报告可复现的启动、编辑或导出问题。
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: 请勿上传私人照片、视频、字体、完整运行目录或未脱敏日志。安全问题请参阅 SECURITY.md，不在这里公开利用细节。
+  - type: input
+    id: environment
+    attributes:
+      label: 系统与版本 / Environment
+      description: OS、CPU 架构、Node.js、FFmpeg、浏览器版本，以及 commit（如有）。
+      placeholder: "macOS / Apple Silicon / Node 24 / FFmpeg ..."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce
+      description: 从启动开始，说明最少需要哪些操作；使用无隐私的示例文件。
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: 预期与实际结果 / Expected and actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏的错误信息 / Redacted error or screenshot
+      description: 分享前去除个人路径、客户姓名、人脸与敏感信息。
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 提交检查 / Checklist
+      options:
+        - label: 已阅读启动说明与 README 的当前限制，且没有附带私人素材或秘密信息。
+          required: true

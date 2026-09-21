@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 使用与启动文档 / Documentation
+    url: https://github.com/DongZhouGu/KakaPin/blob/main/docs/README.md
+    about: 首次安装、字体、FFmpeg、模板、导出与迁移。
+  - name: 安全问题 / Security policy
+    url: https://github.com/DongZhouGu/KakaPin/security/policy
+    about: 请先阅读安全策略，不要公开提交利用细节或私人文件。
