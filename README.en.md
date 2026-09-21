@@ -6,7 +6,7 @@
 
 KakaPin is a local photo-and-video album editor. Combine landscape and portrait media, choose paper or film-inspired templates, add your own small captions, set the pacing, and render an MP4 on your computer.
 
-[Quick start](#quick-start) · [Documentation](docs/README.md) · [简体中文](README.md)
+[Website](https://DongZhouGu.github.io/KakaPin/en/) · [Quick start](#quick-start) · [Documentation](docs/README.md) · [简体中文](README.md)
 
 > Early version · Local server + browser · macOS / Windows launch scripts · Node.js 22+ · FFmpeg
 

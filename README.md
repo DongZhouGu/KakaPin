@@ -6,7 +6,7 @@
 
 KakaPin 是一款本地运行的相册视频编辑器。把照片和视频放在一起，按横竖比例组合画面，选择相纸与胶片风格，调整小字和节奏，再在自己的电脑上导出 MP4。
 
-[快速开始](#快速开始) · [使用指南](docs/user-guide.md) · [启动与迁移](双击启动说明.md) · [English](README.en.md)
+[产品官网](https://DongZhouGu.github.io/KakaPin/) · [快速开始](#快速开始) · [使用指南](docs/user-guide.md) · [启动与迁移](双击启动说明.md) · [English](README.en.md)
 
 > 早期版本 · 本机服务 + 浏览器 · macOS / Windows 启动脚本 · Node.js 22+ · FFmpeg
 

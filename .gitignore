@@ -5,6 +5,7 @@ node_modules/
 coverage/
 test-results/
 playwright-report/
+.site-dist/
 *.log
 *.tmp
 *.tsbuildinfo
